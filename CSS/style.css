@@ -1,0 +1,58 @@
+body {
+  background-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/08/14/10/pri161175555.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.circular {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+
+font {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+h5 {
+  color: white;
+}
+
+hr {
+  width: 40%;
+  height: 10px;
+  border-style: dotted;
+  border-top-style: dotted;
+  border-width: 20px;
+  border-color: white;
+}
+
+img {
+  border-radius: 100;
+}
